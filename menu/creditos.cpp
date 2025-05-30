@@ -2,26 +2,27 @@
 #include <conio.h>
 #include "../menu_header/creditos.h"
 #include "../menu_header/menu.h"
+#include "../menu_header/mecanismo_menu.h"
 
 using namespace std;
 
-// los pibes
 void mostrarCreditos() {
-    cout << "creditos facheros" << endl;
 
-    cout << endl << "2 - volver";
+    cout<<"=============================" << endl;
+    cout << "          Creditos           " << endl;
+    cout<<"============================="<< endl << endl;
 
-    int i = 0;
+    cout<< "  Materia: Progamacion 1"<<endl;
+    cout<< "   Profesor: Angel Simon"<< endl << endl;
 
-    while (i == 0) {
-        char volver = getch();
+    cout<< "  Integrantes de 'Los Pibes'"<<endl;
+    cout<< "  1. Tomas Centurion     - 30926"<<endl;
+    cout<< "  3. Franco Medero       - 27589"<< endl;
+    cout<< "  4. Emanuel Gomez       - 28781"<< endl;
+    cout<< "  5. Angel Diaz          - 33472"<< endl;
 
-        if (volver == '2') {
-            for (int i = 0; i < 50; ++i) {
-                cout << "\n"; // Imprime líneas en blanco para limpiar consola
-            }
-            mostrarMenu();
-            i++;
-        }
-    }
+
+    cout << endl << endl << "2 - volver";
+
+    volver();
 }

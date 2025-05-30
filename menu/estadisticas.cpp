@@ -1,7 +1,7 @@
 #include <iostream>
 #include <conio.h>
 #include "../menu_header/estadisticas.h"
-#include "../menu_header/menu.h"
+#include "../menu_header/mecanismo_menu.h"
 
 using namespace std;
 
@@ -38,17 +38,5 @@ void mostrarEstadisticas() {
 
     cout << endl << "2 - volver";
 
-    int i = 0;
-
-    while (i == 0) {
-        char volver = getch();
-
-        if (volver == '2') {
-            for (int i = 0; i < 50; ++i) {
-                cout << "\n"; // Imprime líneas en blanco para limpiar consola
-            }
-            mostrarMenu();
-            i++;
-        }
-    }
+    volver();
 }
