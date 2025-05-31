@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1748612116 source:c:\users\franc\desktop\programacion\tp\tp integrador\version inicial\tpi-grupo50-main\definicion de funciones.cpp
+	"funciones.h"
+	<iostream>
+
+1748612105 c:\users\franc\desktop\programacion\tp\tp integrador\version inicial\tpi-grupo50-main\funciones.h
+
+1748612261 source:c:\users\franc\desktop\programacion\tp\tp integrador\version inicial\tpi-grupo50-main\main.cpp
+	<iostream>
+	"funciones.h"
+	<ctime>
+
+1748542518 source:c:\users\franc\desktop\programacion\tp\tp integrador\version inicial\tpi-grupo50-main\declaracion de funciones.h
+
+1748542518 c:\users\franc\desktop\programacion\tp\tp integrador\version inicial\tpi-grupo50-main\declaracion de funciones.h
+
