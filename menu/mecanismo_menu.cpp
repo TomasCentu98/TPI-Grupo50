@@ -5,19 +5,16 @@
 #include "../menu_header/estadisticas.h"
 #include "../menu_header/salir.h"
 #include "../menu_header/menu.h"
-
-using namespace std;
+#include "../juego_header/suma_dados.h"
+#include "../juego_header/juego.h"
 
 void mecanismoMenu() {
 
-    // esto detecta la tecla que toquemos sin tener que apretar ENTER
-    // lo hace mas didactico al menu je
     char decision = getch();
 
     switch (decision) {
     case '1':
-        espaciosBlancos();
-        cout << "iniciando juego...";
+        jugar();
         break;
     case '2':
         espaciosBlancos();
@@ -36,20 +33,22 @@ void mecanismoMenu() {
 
 }
 
+// Imprime líneas en blanco para limpiar consola
 void espaciosBlancos() {
 
-    // Imprime líneas en blanco para limpiar consola
     for (int i = 0; i < 50; ++i) {
-        cout << "\n";
+        std::cout << "\n";
     }
 }
 
+// boton de volver, si se elige 2 se vuelve al
+// menu de inicio
 void volver() {
 
     int i = 0;
 
     while (i == 0) {
-        char volver = getch();
+        int volver = getch();
 
         if (volver == '2') {
             espaciosBlancos();

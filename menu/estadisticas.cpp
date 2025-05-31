@@ -36,7 +36,7 @@ void mostrarEstadisticas() {
 
     */
 
-    cout << endl << "2 - volver";
+    cout << endl << "2 - volver" << endl;
 
     volver();
 }

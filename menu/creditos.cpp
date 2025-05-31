@@ -22,7 +22,7 @@ void mostrarCreditos() {
     cout<< "  5. Angel Diaz          - 33472"<< endl;
 
 
-    cout << endl << endl << "2 - volver";
+    cout << endl << endl << "2 - volver" << endl;
 
     volver();
 }

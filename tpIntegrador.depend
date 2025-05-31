@@ -98,3 +98,70 @@
 1748656089 c:\users\tomy\documents\github\tpi-grupo50\juego_header\suma_dados.h
 	<vector>
 
+1748716788 source:c:\users\tomy\desktop\tpi-grupo50-main\juego\suma_dados.cpp
+	<iostream>
+	"../juego_header/suma_dados.h"
+	<conio.h>
+	<vector>
+	"../menu_header/mecanismo_menu.h"
+	<algorithm>
+
+1748715863 c:\users\tomy\desktop\tpi-grupo50-main\juego_header\suma_dados.h
+	<vector>
+
+1748656535 c:\users\tomy\desktop\tpi-grupo50-main\menu_header\mecanismo_menu.h
+
+1748713737 source:c:\users\tomy\desktop\tpi-grupo50-main\main.cpp
+	<iostream>
+	"menu_header/menu.h"
+	"juego_header/suma_dados.h"
+	<vector>
+
+1748656535 c:\users\tomy\desktop\tpi-grupo50-main\menu_header\menu.h
+
+1748713181 source:c:\users\tomy\desktop\tpi-grupo50-main\menu\creditos.cpp
+	<iostream>
+	<conio.h>
+	"../menu_header/creditos.h"
+	"../menu_header/menu.h"
+	"../menu_header/mecanismo_menu.h"
+
+1748656535 c:\users\tomy\desktop\tpi-grupo50-main\menu_header\creditos.h
+
+1748713187 source:c:\users\tomy\desktop\tpi-grupo50-main\menu\estadisticas.cpp
+	<iostream>
+	<conio.h>
+	"../menu_header/estadisticas.h"
+	"../menu_header/mecanismo_menu.h"
+
+1748656535 c:\users\tomy\desktop\tpi-grupo50-main\menu_header\estadisticas.h
+
+1748713771 source:c:\users\tomy\desktop\tpi-grupo50-main\menu\mecanismo_menu.cpp
+	<iostream>
+	"../menu_header/mecanismo_menu.h"
+	"../menu_header/creditos.h"
+	"../menu_header/estadisticas.h"
+	"../menu_header/salir.h"
+	"../menu_header/menu.h"
+	"../juego_header/suma_dados.h"
+	"../juego_header/juego.h"
+
+1748656535 c:\users\tomy\desktop\tpi-grupo50-main\menu_header\salir.h
+
+1748656535 source:c:\users\tomy\desktop\tpi-grupo50-main\menu\menu.cpp
+	<iostream>
+	"../menu_header/menu.h"
+	"../menu_header/mecanismo_menu.h"
+
+1748713209 source:c:\users\tomy\desktop\tpi-grupo50-main\menu\salir.cpp
+	<iostream>
+	"../menu_header/salir.h"
+
+1748713703 source:c:\users\tomy\desktop\tpi-grupo50-main\juego\juego.cpp
+	<iostream>
+	"../juego_header/juego.h"
+	"../juego_header/suma_dados.h"
+	<vector>
+
+1748713533 c:\users\tomy\desktop\tpi-grupo50-main\juego_header\juego.h
+
