@@ -23,12 +23,3 @@ int tiradaexitosa(int sumadados, int cantidaddedados){
 
     return resultado;
 }
-
-
-
-
-
-
-
-
-
