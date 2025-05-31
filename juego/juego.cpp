@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// aca va el codigo para empezar el juego
 void jugar() {
 /*
     PROBANDO SUMA DE DADOS
