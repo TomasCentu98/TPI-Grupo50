@@ -40,13 +40,15 @@
 	"../menu_header/estadisticas.h"
 	"../menu_header/salir.h"
 
-1748557219 source:c:\users\tomy\documents\github\tpi-grupo50\main.cpp
+1748656069 source:c:\users\tomy\documents\github\tpi-grupo50\main.cpp
 	<iostream>
 	"menu_header/menu.h"
+	"juego_header/suma_dados.h"
+	<vector>
 
 1748556858 c:\users\tomy\documents\github\tpi-grupo50\menu_header\menu.h
 
-1748643428 source:c:\users\tomy\documents\github\tpi-grupo50\menu\creditos.cpp
+1748643548 source:c:\users\tomy\documents\github\tpi-grupo50\menu\creditos.cpp
 	<iostream>
 	<conio.h>
 	"../menu_header/creditos.h"
@@ -63,13 +65,14 @@
 
 1748556850 c:\users\tomy\documents\github\tpi-grupo50\menu_header\estadisticas.h
 
-1748557633 source:c:\users\tomy\documents\github\tpi-grupo50\menu\mecanismo_menu.cpp
+1748643517 source:c:\users\tomy\documents\github\tpi-grupo50\menu\mecanismo_menu.cpp
 	<iostream>
 	<conio.h>
 	"../menu_header/mecanismo_menu.h"
 	"../menu_header/creditos.h"
 	"../menu_header/estadisticas.h"
 	"../menu_header/salir.h"
+	"../menu_header/menu.h"
 
 1748643453 c:\users\tomy\documents\github\tpi-grupo50\menu_header\mecanismo_menu.h
 
@@ -83,4 +86,15 @@
 1748557070 source:c:\users\tomy\documents\github\tpi-grupo50\menu\salir.cpp
 	<iostream>
 	"../menu_header/salir.h"
+
+1748655919 source:c:\users\tomy\documents\github\tpi-grupo50\juego\suma_dados.cpp
+	<iostream>
+	"../juego_header/suma_dados.h"
+	<conio.h>
+	<vector>
+	"../menu_header/mecanismo_menu.h"
+	<algorithm>
+
+1748656089 c:\users\tomy\documents\github\tpi-grupo50\juego_header\suma_dados.h
+	<vector>
 

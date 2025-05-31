@@ -19,6 +19,8 @@
 				<Option compiler="gcc-mingw32" />
 			</Target>
 		</Build>
+		<Unit filename="juego/suma_dados.cpp" />
+		<Unit filename="juego_header/suma_dados.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="menu/creditos.cpp" />
 		<Unit filename="menu/estadisticas.cpp" />
