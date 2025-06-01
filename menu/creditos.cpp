@@ -18,7 +18,7 @@ void mostrarCreditos() {
     cout<< "  Integrantes de 'Los Pibes'"<<endl;
     cout<< "  1. Tomas Centurion     - 30926"<<endl;
     cout<< "  3. Franco Medero       - 27589"<< endl;
-    cout<< "  4. Emanuel Gomez       - 28781"<< endl;
+    cout<< "  4. Sebastian Gomez       - 28781"<< endl;
     cout<< "  5. Angel Diaz          - 33472"<< endl;
 
 
