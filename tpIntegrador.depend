@@ -40,7 +40,7 @@
 	"../menu_header/estadisticas.h"
 	"../menu_header/salir.h"
 
-1748722890 source:c:\users\tomy\documents\github\tpi-grupo50\main.cpp
+1748722980 source:c:\users\tomy\documents\github\tpi-grupo50\main.cpp
 	<iostream>
 	"funciones.h"
 	<ctime>
@@ -48,7 +48,7 @@
 
 1748656535 c:\users\tomy\documents\github\tpi-grupo50\menu_header\menu.h
 
-1748713181 source:c:\users\tomy\documents\github\tpi-grupo50\menu\creditos.cpp
+1748904542 source:c:\users\tomy\documents\github\tpi-grupo50\menu\creditos.cpp
 	<iostream>
 	<conio.h>
 	"../menu_header/creditos.h"
@@ -89,15 +89,14 @@
 	<iostream>
 	"../menu_header/salir.h"
 
-1748716788 source:c:\users\tomy\documents\github\tpi-grupo50\juego\suma_dados.cpp
+1748908783 source:c:\users\tomy\documents\github\tpi-grupo50\juego\suma_dados.cpp
 	<iostream>
 	"../juego_header/suma_dados.h"
 	<conio.h>
 	<vector>
 	"../menu_header/mecanismo_menu.h"
-	<algorithm>
 
-1748715863 c:\users\tomy\documents\github\tpi-grupo50\juego_header\suma_dados.h
+1748905790 c:\users\tomy\documents\github\tpi-grupo50\juego_header\suma_dados.h
 	<vector>
 
 1748716788 source:c:\users\tomy\desktop\tpi-grupo50-main\juego\suma_dados.cpp
@@ -167,17 +166,24 @@
 
 1748713533 c:\users\tomy\desktop\tpi-grupo50-main\juego_header\juego.h
 
-1748722439 source:c:\users\tomy\documents\github\tpi-grupo50\definicion de funciones.cpp
+1748909272 source:c:\users\tomy\documents\github\tpi-grupo50\definicion de funciones.cpp
 	"funciones.h"
 	<iostream>
+	<conio.h>
+	"menu_header/mecanismo_menu.h"
 
 1748722439 c:\users\tomy\documents\github\tpi-grupo50\funciones.h
 
-1748713533 c:\users\tomy\documents\github\tpi-grupo50\juego_header\juego.h
+1748910659 c:\users\tomy\documents\github\tpi-grupo50\juego_header\juego.h
+	<iostream>
+	<vector>
 
-1748717187 source:c:\users\tomy\documents\github\tpi-grupo50\juego\juego.cpp
+1748908615 source:c:\users\tomy\documents\github\tpi-grupo50\juego\juego.cpp
 	<iostream>
 	"../juego_header/juego.h"
 	"../juego_header/suma_dados.h"
 	<vector>
+	"../funciones.h"
+	"../juego_header/suma_dados.h"
+	"../menu_header/mecanismo_menu.h"
 
