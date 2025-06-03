@@ -27,9 +27,7 @@ void jugar() {
     dadosJugador2 += resultado[1];
     resultado = turno(jugador2, dadosJugador2);
 
-    cout << "fin de la prueba";
-   }
-
+    cout << endl << endl << "fin de la prueba";
 }
 
 string pedirnombre(){
