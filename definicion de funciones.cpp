@@ -1,5 +1,8 @@
 #include "funciones.h"
 #include <iostream>
+#include <conio.h>
+#include "menu_header/mecanismo_menu.h"
+
 using namespace std;
 
 
@@ -11,15 +14,34 @@ int tirardado6caras(){
 
 int tirardado12caras(){
 
-    return rand() % 12 + 1;
+    espaciosBlancos();
 
-}
+    int dado1, dado2, resultado;
 
-int tiradaexitosa(int sumadados, int cantidaddedados){
+    dado1 = rand() % 12 + 1;
+    dado2 = rand() % 12 + 1;
 
-    int dados, dadoselegidos, resultado;
+    resultado = dado1 + dado2;
 
-    resultado = dados * dadoselegidos;
+    cout << "Numero Objetivo: ";
+
+    cout << dado1 << " + ";
+    cout << dado2 << " = ";
+    cout << resultado;
+
+    cout << endl << endl;
+    cout << "2 - avanzar";
+
+    int botonAvanzar = 0;
+
+    while (botonAvanzar == 0) {
+        int boton = getch();
+
+        if (boton == '2') {
+            botonAvanzar++;
+        } else continue;
+    }
 
     return resultado;
+
 }

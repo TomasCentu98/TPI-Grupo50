@@ -9,7 +9,7 @@ using namespace std;
 void mostrarCreditos() {
 
     cout<<"=============================" << endl;
-    cout << "          Creditos           " << endl;
+    cout<< "          Creditos           " << endl;
     cout<<"============================="<< endl << endl;
 
     cout<< "  Materia: Progamacion 1"<<endl;
@@ -17,9 +17,9 @@ void mostrarCreditos() {
 
     cout<< "  Integrantes de 'Los Pibes'"<<endl;
     cout<< "  1. Tomas Centurion     - 30926"<<endl;
-    cout<< "  3. Franco Medero       - 27589"<< endl;
-    cout<< "  4. Sebastian Gomez       - 28781"<< endl;
-    cout<< "  5. Angel Diaz          - 33472"<< endl;
+    cout<< "  2. Franco Medero       - 27589"<< endl;
+    cout<< "  3. Sebastian Gomez     - 28781"<< endl;
+    cout<< "  4. Angel Diaz          - 33472"<< endl;
 
 
     cout << endl << endl << "2 - volver" << endl;
