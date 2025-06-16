@@ -68,7 +68,7 @@
 	<iostream>
 	<vector>
 
-1750112168 source:c:\users\tomy\documents\github\tpi-grupo50\menu\mecanismo_menu.cpp
+1750112371 source:c:\users\tomy\documents\github\tpi-grupo50\menu\mecanismo_menu.cpp
 	<iostream>
 	<conio.h>
 	"../menu_header/mecanismo_menu.h"
@@ -194,9 +194,10 @@
 	"../menu_header/menu.h"
 	"../menu_header/estadisticas.h"
 
-1750034849 source:c:\users\tomy\documents\github\tpi-grupo50\menu\reglas.cpp
+1750112331 source:c:\users\tomy\documents\github\tpi-grupo50\menu\reglas.cpp
 	<iostream>
 	"../menu_header/reglas.h"
+	"../menu_header/mecanismo_menu.h"
 
 1750034782 c:\users\tomy\documents\github\tpi-grupo50\menu_header\reglas.h
 
