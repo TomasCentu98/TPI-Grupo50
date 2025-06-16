@@ -1,3 +1,6 @@
 #pragma once
+#include <iostream>
+#include <vector>
+using namespace std;
 
-void mostrarEstadisticas();
+void mostarEstadisticas (vector<int>& puntosEstadisticas, vector<string>& nombresEstadisticas);

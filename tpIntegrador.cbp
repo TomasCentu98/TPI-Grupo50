@@ -30,12 +30,12 @@
 		<Unit filename="menu/estadisticas.cpp" />
 		<Unit filename="menu/mecanismo_menu.cpp" />
 		<Unit filename="menu/menu.cpp" />
-		<Unit filename="menu/salir.cpp" />
+		<Unit filename="menu/reglas.cpp" />
 		<Unit filename="menu_header/creditos.h" />
 		<Unit filename="menu_header/estadisticas.h" />
 		<Unit filename="menu_header/mecanismo_menu.h" />
 		<Unit filename="menu_header/menu.h" />
-		<Unit filename="menu_header/salir.h" />
+		<Unit filename="menu_header/reglas.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
