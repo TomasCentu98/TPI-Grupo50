@@ -6,6 +6,7 @@
 #include "../menu_header/menu.h"
 #include "../juego_header/suma_dados.h"
 #include "../juego_header/juego.h"
+#include "../menu_header/reglas.h"
 
 // es el mecanismo no toquen nada jeje
 void mecanismoMenu() {
@@ -33,6 +34,7 @@ void mecanismoMenu() {
             mostrarCreditos();
             break;
         case '4':
+            espaciosBlancos();
             mostrarReglas();
             break;
         case '0':
@@ -55,6 +57,7 @@ void espaciosBlancos() {
 
 // boton de volver, si se elige 2 se vuelve al
 // menu de inicio, sino sigue esperando que lo elijas :c
+// se hizo para no repetir codigo ehje
 void volver() {
 
     int i = 0;
