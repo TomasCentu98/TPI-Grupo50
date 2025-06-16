@@ -7,4 +7,4 @@ void mostrarDadosTirados(std::vector<int> dadosStock, std::string jugadorActual,
 
 bool tiradaFallada (std::vector<int> dadosStock, int numeroObjetivo);
 
-bool tiradaExitosa (vector<int> dadosStock, int numeroObjetivo);
+bool tiradaExitosa (std::vector<int> dadosStock, int numeroObjetivo);
