@@ -10,8 +10,7 @@ void mostrarMenu() {
     cout << " 1 - Jugar" << endl;
 	cout << " 2 - Estadistica" << endl;
 	cout << " 3 - Creditos" << endl;
+	cout << " 4 - Reglas" << endl;
 	cout << " ------------------ " << endl;
 	cout << " 0 - Salir" << endl;
-
-	mecanismoMenu();
 }

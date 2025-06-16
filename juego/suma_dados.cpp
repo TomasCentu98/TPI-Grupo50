@@ -16,20 +16,18 @@ vector<int> elegirDadosTirados(vector<int> dadosStock, int numeroObjetivo, strin
 
     int largoDeLista = dadosStock.size();
 
-    // verifica si es posible llegar a la meta
-    // con los dados actuales
-    int totalDados = 0;
-    for (int i : dadosStock) {
-        totalDados += i;
-    }
+    vector<int> dadosUsados = {};
 
-    if (totalDados < numeroObjetivo) {
-        cout << "Mala suerte wachin";
-        vector<int> retorno = {sumaDadosUsados, dadosStock.size(), sumaTotal};
+    if (tiradaFallada(dadosStock, numeroObjetivo)) {
+        vector<int> retorno = {sumaDadosUsados, 0, sumaTotal};
         return retorno;
     };
 
-    vector<int> dadosUsados = {};
+    if (tiradaExitosa(dadosStock, numeroObjetivo)) {
+        vector<int> retorno = {sumaDadosUsados, 0, 10000};
+        return retorno;
+    };
+
 
     // se pueden elegir tantos dados como se quiera hasta llegar
     // al numero de meta
@@ -70,7 +68,7 @@ vector<int> elegirDadosTirados(vector<int> dadosStock, int numeroObjetivo, strin
 
     };
 
-    // devuelve la cantidad de dados usados y la suma lograda
+    // devuelve la cantidad de dados usados, dados restantes y suma hecha relativamente
     vector<int> retorno = {sumaDadosUsados, dadosStock.size(), sumaTotal};
 
     return retorno;
@@ -92,4 +90,86 @@ void mostrarDadosTirados(vector<int> dadosStock, string nombre, int numeroObjeti
     cout << endl;
     cout << "*************************";
     cout << endl;
+}
+
+// verifica si es posible llegar a la meta con los dados actuales
+bool tiradaFallada (vector<int> dadosStock, int numeroObjetivo) {
+
+    int totalDados = 0;
+
+    for (int i : dadosStock) {
+        totalDados += i;
+    }
+
+    if (totalDados < numeroObjetivo) {
+        cout << "       TIRADA FALLIDA D:      " << endl;
+        cout << "** tus dados no alcanzan para llegar a la meta **" << endl;
+        cout << endl;
+        for (int i : dadosStock) {
+            cout << i << " ";
+        }
+        cout << " = " << totalDados;
+        cout << " /// " << "Meta: " << numeroObjetivo;
+        cout << endl;
+
+        cout << "Pasando turno al siguiente jugador :c";
+
+        cout << endl << endl;
+        cout << "2 - avanzar";
+
+        int botonAvanzar = 0;
+
+        while (botonAvanzar == 0) {
+            int boton = getch();
+
+            if (boton == '2') {
+                botonAvanzar++;
+            } else continue;
+        }
+
+        return true;
+    };
+
+    return false;
+}
+
+// verifica si es TIRADA EXITOSAAAAAAAA
+bool tiradaExitosa (vector<int> dadosStock, int numeroObjetivo) {
+
+    int totalDados = 0;
+
+    for (int i : dadosStock) {
+        totalDados += i;
+    }
+
+    if (totalDados == numeroObjetivo) {
+        cout << "       TIRADA EXITOSA :D      " << endl;
+        cout << "** tus dados son justos para llegar a la META **" << endl;
+        cout << endl;
+        for (int i : dadosStock) {
+            cout << i << " ";
+        }
+        cout << " = " << totalDados;
+        cout << " /// " << "Meta: " << numeroObjetivo;
+        cout << endl;
+
+        cout << "Ya ganaste pero segui jugando por diversion :)";
+
+        cout << endl << endl;
+        cout << "2 - avanzar";
+
+        int botonAvanzar = 0;
+
+        while (botonAvanzar == 0) {
+            int boton = getch();
+
+            if (boton == '2') {
+                botonAvanzar++;
+            } else continue;
+        }
+
+        return true;
+    };
+
+    return false;
 }

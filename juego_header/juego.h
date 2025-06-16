@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void jugar();
+void jugar(vector<int>& puntosEstadisticas, vector<string>& nombresEstadisticas);
 
 string pedirnombre();
 

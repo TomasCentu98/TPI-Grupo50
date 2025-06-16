@@ -40,15 +40,16 @@
 	"../menu_header/estadisticas.h"
 	"../menu_header/salir.h"
 
-1748722980 source:c:\users\tomy\documents\github\tpi-grupo50\main.cpp
+1750033638 source:c:\users\tomy\documents\github\tpi-grupo50\main.cpp
 	<iostream>
 	"funciones.h"
 	<ctime>
 	"menu_header/menu.h"
+	"menu_header/mecanismo_menu.h"
 
 1748656535 c:\users\tomy\documents\github\tpi-grupo50\menu_header\menu.h
 
-1748904542 source:c:\users\tomy\documents\github\tpi-grupo50\menu\creditos.cpp
+1750033379 source:c:\users\tomy\documents\github\tpi-grupo50\menu\creditos.cpp
 	<iostream>
 	<conio.h>
 	"../menu_header/creditos.h"
@@ -57,15 +58,17 @@
 
 1748656535 c:\users\tomy\documents\github\tpi-grupo50\menu_header\creditos.h
 
-1748713187 source:c:\users\tomy\documents\github\tpi-grupo50\menu\estadisticas.cpp
+1750033828 source:c:\users\tomy\documents\github\tpi-grupo50\menu\estadisticas.cpp
 	<iostream>
 	<conio.h>
 	"../menu_header/estadisticas.h"
 	"../menu_header/mecanismo_menu.h"
 
-1748656535 c:\users\tomy\documents\github\tpi-grupo50\menu_header\estadisticas.h
+1750032508 c:\users\tomy\documents\github\tpi-grupo50\menu_header\estadisticas.h
+	<iostream>
+	<vector>
 
-1748717091 source:c:\users\tomy\documents\github\tpi-grupo50\menu\mecanismo_menu.cpp
+1750033226 source:c:\users\tomy\documents\github\tpi-grupo50\menu\mecanismo_menu.cpp
 	<iostream>
 	<conio.h>
 	"../menu_header/mecanismo_menu.h"
@@ -80,7 +83,7 @@
 
 1748656535 c:\users\tomy\documents\github\tpi-grupo50\menu_header\salir.h
 
-1748656535 source:c:\users\tomy\documents\github\tpi-grupo50\menu\menu.cpp
+1750033648 source:c:\users\tomy\documents\github\tpi-grupo50\menu\menu.cpp
 	<iostream>
 	"../menu_header/menu.h"
 	"../menu_header/mecanismo_menu.h"
@@ -89,14 +92,14 @@
 	<iostream>
 	"../menu_header/salir.h"
 
-1748908783 source:c:\users\tomy\documents\github\tpi-grupo50\juego\suma_dados.cpp
+1750026984 source:c:\users\tomy\documents\github\tpi-grupo50\juego\suma_dados.cpp
 	<iostream>
 	"../juego_header/suma_dados.h"
 	<conio.h>
 	<vector>
 	"../menu_header/mecanismo_menu.h"
 
-1748905790 c:\users\tomy\documents\github\tpi-grupo50\juego_header\suma_dados.h
+1750026950 c:\users\tomy\documents\github\tpi-grupo50\juego_header\suma_dados.h
 	<vector>
 
 1748716788 source:c:\users\tomy\desktop\tpi-grupo50-main\juego\suma_dados.cpp
@@ -166,19 +169,21 @@
 
 1748713533 c:\users\tomy\desktop\tpi-grupo50-main\juego_header\juego.h
 
-1748909272 source:c:\users\tomy\documents\github\tpi-grupo50\definicion de funciones.cpp
+1750033874 source:c:\users\tomy\documents\github\tpi-grupo50\definicion de funciones.cpp
 	"funciones.h"
 	<iostream>
 	<conio.h>
 	"menu_header/mecanismo_menu.h"
 
-1748722439 c:\users\tomy\documents\github\tpi-grupo50\funciones.h
-
-1748910659 c:\users\tomy\documents\github\tpi-grupo50\juego_header\juego.h
+1750032632 c:\users\tomy\documents\github\tpi-grupo50\funciones.h
 	<iostream>
 	<vector>
 
-1748908615 source:c:\users\tomy\documents\github\tpi-grupo50\juego\juego.cpp
+1750032208 c:\users\tomy\documents\github\tpi-grupo50\juego_header\juego.h
+	<iostream>
+	<vector>
+
+1750033809 source:c:\users\tomy\documents\github\tpi-grupo50\juego\juego.cpp
 	<iostream>
 	"../juego_header/juego.h"
 	"../juego_header/suma_dados.h"
@@ -186,4 +191,6 @@
 	"../funciones.h"
 	"../juego_header/suma_dados.h"
 	"../menu_header/mecanismo_menu.h"
+	"../menu_header/menu.h"
+	"../menu_header/estadisticas.h"
 

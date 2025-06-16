@@ -13,7 +13,7 @@ void mostrarCreditos() {
     cout<<"============================="<< endl << endl;
 
     cout<< "  Materia: Progamacion 1"<<endl;
-    cout<< "   Profesor: Angel Simon"<< endl << endl;
+    cout<< "  Profesor: Angel Simon"<< endl << endl;
 
     cout<< "  Integrantes de 'Los Pibes'"<<endl;
     cout<< "  1. Tomas Centurion     - 30926"<<endl;
