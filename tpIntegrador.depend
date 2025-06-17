@@ -40,12 +40,10 @@
 	"../menu_header/estadisticas.h"
 	"../menu_header/salir.h"
 
-1750033638 source:c:\users\tomy\documents\github\tpi-grupo50\main.cpp
+1750118136 source:c:\users\tomy\documents\github\tpi-grupo50\main.cpp
 	<iostream>
-	"funciones.h"
+	"menus.h"
 	<ctime>
-	"menu_header/menu.h"
-	"menu_header/mecanismo_menu.h"
 
 1748656535 c:\users\tomy\documents\github\tpi-grupo50\menu_header\menu.h
 
@@ -68,7 +66,7 @@
 	<iostream>
 	<vector>
 
-1750112371 source:c:\users\tomy\documents\github\tpi-grupo50\menu\mecanismo_menu.cpp
+1750117121 source:c:\users\tomy\documents\github\tpi-grupo50\menu\mecanismo_menu.cpp
 	<iostream>
 	<conio.h>
 	"../menu_header/mecanismo_menu.h"
@@ -92,14 +90,14 @@
 	<iostream>
 	"../menu_header/salir.h"
 
-1750034567 source:c:\users\tomy\documents\github\tpi-grupo50\juego\suma_dados.cpp
+1750116830 source:c:\users\tomy\documents\github\tpi-grupo50\juego\suma_dados.cpp
 	<iostream>
 	"../juego_header/suma_dados.h"
 	<conio.h>
 	<vector>
 	"../menu_header/mecanismo_menu.h"
 
-1750112145 c:\users\tomy\documents\github\tpi-grupo50\juego_header\suma_dados.h
+1750116763 c:\users\tomy\documents\github\tpi-grupo50\juego_header\suma_dados.h
 	<vector>
 
 1748716788 source:c:\users\tomy\desktop\tpi-grupo50-main\juego\suma_dados.cpp
@@ -179,11 +177,11 @@
 	<iostream>
 	<vector>
 
-1750032208 c:\users\tomy\documents\github\tpi-grupo50\juego_header\juego.h
+1750116601 c:\users\tomy\documents\github\tpi-grupo50\juego_header\juego.h
 	<iostream>
 	<vector>
 
-1750034231 source:c:\users\tomy\documents\github\tpi-grupo50\juego\juego.cpp
+1750116622 source:c:\users\tomy\documents\github\tpi-grupo50\juego\juego.cpp
 	<iostream>
 	"../juego_header/juego.h"
 	"../juego_header/suma_dados.h"
@@ -200,4 +198,18 @@
 	"../menu_header/mecanismo_menu.h"
 
 1750034782 c:\users\tomy\documents\github\tpi-grupo50\menu_header\reglas.h
+
+1750118283 c:\users\tomy\documents\github\tpi-grupo50\menus.h
+	<iostream>
+	<vector>
+
+1750118300 source:c:\users\tomy\documents\github\tpi-grupo50\jueguito.cpp
+	<iostream>
+	"jueguito.h"
+	"menus.h"
+	"conio.h"
+
+1750118167 c:\users\tomy\documents\github\tpi-grupo50\jueguito.h
+	<iostream>
+	<vector>
 

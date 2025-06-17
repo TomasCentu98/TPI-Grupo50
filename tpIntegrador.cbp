@@ -19,23 +19,11 @@
 				<Option compiler="gcc-mingw32" />
 			</Target>
 		</Build>
-		<Unit filename="definicion de funciones.cpp" />
-		<Unit filename="funciones.h" />
-		<Unit filename="juego/juego.cpp" />
-		<Unit filename="juego/suma_dados.cpp" />
-		<Unit filename="juego_header/juego.h" />
-		<Unit filename="juego_header/suma_dados.h" />
+		<Unit filename="jueguito.cpp" />
+		<Unit filename="jueguito.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="menu/creditos.cpp" />
-		<Unit filename="menu/estadisticas.cpp" />
-		<Unit filename="menu/mecanismo_menu.cpp" />
-		<Unit filename="menu/menu.cpp" />
-		<Unit filename="menu/reglas.cpp" />
-		<Unit filename="menu_header/creditos.h" />
-		<Unit filename="menu_header/estadisticas.h" />
-		<Unit filename="menu_header/mecanismo_menu.h" />
-		<Unit filename="menu_header/menu.h" />
-		<Unit filename="menu_header/reglas.h" />
+		<Unit filename="menus.cpp" />
+		<Unit filename="menus.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
