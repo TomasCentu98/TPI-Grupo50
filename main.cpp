@@ -1,8 +1,6 @@
 #include <iostream>
-#include "funciones.h"
+#include "menus.h"
 #include <ctime>
-#include "menu_header/menu.h"
-#include "menu_header/mecanismo_menu.h"
 
 using namespace std;
 
