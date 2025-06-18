@@ -68,7 +68,7 @@ void mostarEstadisticas (vector<int>& puntosEstadisticas, vector<string>& nombre
 		rlutil::locate(50,12);
         cout << "# " << nombresEstadisticas[i] << " - " << puntosEstadisticas[i] << "pts" << endl;
     }
-	
+	rlutil::locate(55,18);
     cout << endl << endl << "2 - volver" << endl;
 
     volver();
@@ -77,7 +77,7 @@ void mostarEstadisticas (vector<int>& puntosEstadisticas, vector<string>& nombre
 void mostrarReglas() {
 	rlutil::locate(50,10);
     cout << "agregar las reglas masomenos" << endl;
-	
+	rlutil::locate(55,18);
     cout << endl << "2 - volver";
 
     volver();
